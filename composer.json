@@ -1,0 +1,26 @@
+{
+    "name": "rufus/edge",
+    "type": "package",
+    "description": "Paquete Rufus Edge, un motor de plantillas compatible con Blade.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Drizzy",
+        "email": "hola@drizzy.dev",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rufus\\Edge\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
